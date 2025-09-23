@@ -1,0 +1,14 @@
+{
+    "name": "simulador-notas",
+    "version": "1.0.0",
+    "description": "Simulador de notas de concurso (CG e CE)",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "body-parser": "^1.20.2"
+    }
+  }
+  
