@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  simulador-notas:
+    build: .
+    container_name: simulador-notas
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=production
+    networks:
+      - simulador-mp
+networks:
+  simulador-mp:
